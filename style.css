@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+  }
+  img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 100%;
+  }
+  img:hover{
+    transition: .5s all ease;
+    transform: scale(1.2) 
+  }
+  
+  
